@@ -1,0 +1,37 @@
+{
+  "name": "@wgbx/tools",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "工具集",
+  "main": "dist/tool.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vitepress dev packages",
+    "test": "jest",
+    "build": "rollup --config ./rollup.config.js",
+    "docs:dev": "vitepress dev packages",
+    "docs:build": "vitepress build packages",
+    "docs:preview": "vitepress preview packages"
+  },
+  "author": "微光北下",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.1",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/jest": "^29.5.1",
+    "@types/node": "^20.10.0",
+    "jest": "^29.5.0",
+    "prettier": "^3.0.3",
+    "rollup": "^3.21.5",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "ts-jest": "^29.1.0",
+    "tslib": "^2.5.2",
+    "typescript": "^5.0.4",
+    "vitepress": "1.1.4"
+  }
+}
