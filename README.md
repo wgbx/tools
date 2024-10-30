@@ -1,6 +1,7 @@
-# @wgbx/tools
+<h1 align="center">@wgbx/tools</h1>
+<p align="center">Business Library Tool</p>
 
-**Business Library Toolset**
+[简体中文](./README.ZH.md)
 
 ## Installation
 
@@ -51,6 +52,8 @@ The methods are unit-tested to ensure the function stability.
 
 ## How is it Different from lodash?
 
-**Function Scope**: lodash is a tool function library that does not participate in business operations. @wgbx/tools, on the other hand, is a business library that can participate in business and provides business-level tools.
+**Function Scope**
+lodash is a tool function library that does not participate in business operations. @wgbx/tools, on the other hand, is a business library that can participate in business and provides business-level tools.
 
-**Customizability**: lodash offers many tool functions but cannot be customized. @wgbx/tools provides many tool functions and supports dynamic expansion. You can add your own tool functions according to your requirements.
+**Customizability**
+lodash offers many tool functions but cannot be customized. @wgbx/tools provides many tool functions and supports dynamic expansion. You can add your own tool functions according to your requirements.
