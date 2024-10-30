@@ -1,10 +1,14 @@
 <h1 align="center">tools</h1>
-<p align="center">业务库工具集</p>
+<p align="center">Business Library Tools</p>
 
-## 安装
+## Installation
 
 ```bash
-npm install @wgbx/tools -S
-// or
-pnpm add @wgbx/tools -S
+pnpm add @wgbx/tools
+```
+
+## View Docs
+
+```bash
+pnpm dev
 ```
