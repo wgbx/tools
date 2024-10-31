@@ -4,9 +4,9 @@
 ## 安装
 
 ```bash
-npm install @wgbx/tools -S
+npm install @wgbx/tools
 // or
-pnpm add @wgbx/tools -S
+pnpm add @wgbx/tools
 ```
 
 ### 什么是 @wgbx/tools
