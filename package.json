@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vitepress dev packages",
     "test": "jest",
-    "build": "rollup --config ./rollup.config.js",
+    "build": "rollup --config ./rollup.config.ts",
     "docs:dev": "vitepress dev packages",
     "docs:build": "vitepress build packages",
     "docs:preview": "vitepress preview packages"
@@ -33,5 +33,8 @@
     "tslib": "^2.5.2",
     "typescript": "^5.0.4",
     "vitepress": "1.1.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
   }
 }
