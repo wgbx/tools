@@ -11,6 +11,6 @@
     "noImplicitThis": false,
     "skipLibCheck": true
   },
-  "include": ["packages/core/"],
+  "include": ["packages/"],
   "references": []
 }

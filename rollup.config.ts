@@ -7,7 +7,7 @@ import typescript from '@rollup/plugin-typescript'
 const name = 'tool'
 
 export default {
-  input: './packages/core/index.ts',
+  input: './packages/index.ts',
   output: [
     {
       name,

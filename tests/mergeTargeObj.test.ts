@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { mergeTargeObj } from '../core/utils/Function'
+import { mergeTargeObj } from '../packages/index'
 
 describe('mergeTargetObj', () => {
   test('合并对象属性', () => {

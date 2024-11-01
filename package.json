@@ -6,12 +6,12 @@
   "main": "dist/tool.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "vitepress dev packages",
+    "dev": "vitepress dev docs",
     "test": "jest",
     "build": "rollup --config ./rollup.config.ts",
-    "docs:dev": "vitepress dev packages",
-    "docs:build": "vitepress build packages",
-    "docs:preview": "vitepress preview packages"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "author": "微光北下",
   "license": "MIT",

@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { removeQuery } from '../core/utils/Tools'
+import { removeQuery } from '../packages/index'
 
 describe('getQuery', () => {
   it('基础移除', () => {

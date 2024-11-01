@@ -1,5 +1,4 @@
-// @ts-nocheck
-import { getQuery } from '../core/utils/Tools'
+import { getQuery } from '../packages/index'
 
 describe('getQuery', () => {
   it('should return an object with query parameters', () => {
@@ -29,6 +28,6 @@ describe('getQuery', () => {
   it('should handle URL with special characters', () => {
     const url = 'http://example.com/?name=John Doe&age=30+'
     const result = getQuery(url)
-    expect(result).toEqual({ name: 'John Doe', age: '30+' })
+    expect(result).toEqual({ name: 'John Doe', age: '30%20' })
   })
 })

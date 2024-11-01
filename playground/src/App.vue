@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import { getQuery, removeQuery } from '../../packages/core'
+import { getQuery, removeQuery } from '../../packages'
 
 onMounted(() => {
   console.log(getQuery('http://example.com/?name=John Doe&age1=30+123&age=30+++'))
