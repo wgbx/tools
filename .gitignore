@@ -1,4 +1,4 @@
 node_modules
 dist
-packages/.vitepress/cache
-packages/.vitepress/dist
+docs/.vitepress/cache
+docs/.vitepress/dist
