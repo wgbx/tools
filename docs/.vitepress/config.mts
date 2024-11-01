@@ -23,7 +23,7 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/vas_project/frontend_docs/tools' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/wgbx/tools' }],
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present wgbx'

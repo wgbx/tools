@@ -10,7 +10,7 @@ hero:
       link: /posts/start/index.md
     - theme: alt
       text: 在Github上查看
-      link: https://gitlab.wgbx51.cn/vas_project/frontend_docs/tools
+      link: https://github.com/wgbx/tools
 
 features:
   - icon: 🛠️
