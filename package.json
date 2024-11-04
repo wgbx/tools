@@ -6,7 +6,7 @@
   "main": "dist/tool.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "vitepress dev docs",
+    "dev": "vitepress dev docs --port 8888",
     "test": "jest",
     "build": "rollup --config ./rollup.config.ts",
     "docs:dev": "vitepress dev docs",

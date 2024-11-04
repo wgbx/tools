@@ -12,6 +12,10 @@ export default defineConfig({
     lastUpdated: {
       text: '更新时间'
     },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
     outline: {
       label: '大纲'
     },
