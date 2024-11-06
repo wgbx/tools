@@ -89,7 +89,7 @@ title: Regex
 
 ## isUrl
 
-🎯判断给定的字符串是否为有效的URL地址
+🎯判断给定的字符串是否为有效的 URL 地址
 
 ```typescript
 /**

@@ -1,10 +1,13 @@
 ---
 title: Time
 ---
+
 # Time
 
 ## formatPassTime
+
 🎯格式化时间间隔
+
 ```typescript
 /**
  * @func formatPassTime
