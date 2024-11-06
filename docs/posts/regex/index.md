@@ -51,6 +51,21 @@ title: Regex
  */
 ```
 
+## isMobile
+
+🎯检查当前用户是否在移动设备上浏览
+
+```typescript
+/**
+ * @func isMobile
+ * @desc 检查当前用户是否在移动设备上浏览
+ * @returns {boolean} 如果是移动设备返回 `true`，否则返回 `false`
+ * @example
+ * console.log(isMobile())
+ * // 输出：true 或 false
+ */
+```
+
 ## isTelNumber
 
 🎯判断给定的字符串是否为有效的手机号码
@@ -90,20 +105,5 @@ title: Regex
  * // 示例 2: 验证无效的URL地址
  * const isValid2 = isUrl("example.com");
  * console.log(isValid2); // 输出 false
- */
-```
-
-## isMobile
-
-🎯检查当前用户是否在移动设备上浏览
-
-```typescript
-/**
- * @func isMobile
- * @desc 检查当前用户是否在移动设备上浏览
- * @returns {boolean} 如果是移动设备返回 `true`，否则返回 `false`
- * @example
- * console.log(isMobile())
- * // 输出：true 或 false
  */
 ```

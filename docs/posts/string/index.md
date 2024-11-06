@@ -4,24 +4,6 @@ title: String
 
 # String
 
-## toAbsoluteUrl
-
-🎯将相对 URL 转换为绝对 URL，如果需要则添加主机名前缀
-
-```typescript
-/**
- * @func toAbsoluteUrl
- * @desc 将相对URL转换为绝对URL，如果需要则添加主机名前缀
- * @param {string} url - 相对URL。
- * @param {string} [host=location.origin] - 主机名URL。
- * @returns {string} 绝对URL。
- * @example
- * // 示例用法：
- * const absoluteUrl = toAbsoluteUrl('/path/to/resource', 'https://www.example.com');
- * console.log(absoluteUrl); // 输出：https://www.example.com/path/to/resource
- */
-```
-
 ## firstUpperCase
 
 🎯将字符串的首字母大写
@@ -99,5 +81,23 @@ title: String
  * @example
  * const encryptedTel = telEncrypt(1234567890);
  * console.log(encryptedTel); // 输出: "123****7890"
+ */
+```
+
+## toAbsoluteUrl
+
+🎯将相对 URL 转换为绝对 URL，如果需要则添加主机名前缀
+
+```typescript
+/**
+ * @func toAbsoluteUrl
+ * @desc 将相对URL转换为绝对URL，如果需要则添加主机名前缀
+ * @param {string} url - 相对URL。
+ * @param {string} [host=location.origin] - 主机名URL。
+ * @returns {string} 绝对URL。
+ * @example
+ * // 示例用法：
+ * const absoluteUrl = toAbsoluteUrl('/path/to/resource', 'https://www.example.com');
+ * console.log(absoluteUrl); // 输出：https://www.example.com/path/to/resource
  */
 ```
