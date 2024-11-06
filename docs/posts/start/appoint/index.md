@@ -7,17 +7,17 @@ title: 约定
 ### npm
 
 ```bash
-npm install @wgbx/tools -S --registry http://npm.wgbx51.cn
+npm install @wgbx/tools
 ```
 
 ### yarn
 
 ```bash
-yarn add @wgbx/tools -S --registry http://npm.wgbx51.cn
+yarn add @wgbx/tools
 ```
 
 ### pnpm
 
 ```bash
-pnpm add @wgbx/tools -S --registry http://npm.wgbx51.cn
+pnpm add @wgbx/tools
 ```
