@@ -3,7 +3,7 @@
  *
  * @param {string} value - 要验证的字符串
  * @returns {boolean} 如果字符串是有效的电子邮件地址则返回 true，否则返回 false
- *
+ * 
  * @example
  * // 示例 1: 验证有效的电子邮件地址
  * const isValid1 = isEmail("test@example.com");
