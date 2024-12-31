@@ -24,6 +24,10 @@ export default [
     items: [{ text: 'type', link: '/posts/type/index.md' }]
   },
   {
+    text: '存储',
+    items: [{ text: 'storage', link: '/posts/storage/index.md' }]
+  },
+  {
     text: '浏览器',
     items: [{ text: 'browser', link: '/posts/browser/index.md' }]
   },
