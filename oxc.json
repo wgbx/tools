@@ -1,0 +1,10 @@
+{
+  "$schema": "https://oxc-project.github.io/oxc/oxc.json",
+  "linter": {
+    "rules": {
+      "recommended": true
+    }
+  },
+  "include": ["packages/**/*.ts", "playground/**/*.ts", "playground/**/*.vue"],
+  "exclude": ["node_modules", "dist", "docs", "**/*.d.ts"]
+}
