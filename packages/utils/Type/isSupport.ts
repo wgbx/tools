@@ -9,7 +9,7 @@
  */
 export function isSupport(api: string, error = true): boolean {
   if (!(api in window)) {
-    error && console.error(`${api} is not supported by this browser.`)
+    if (error) console.error(`${api} is not supported by this browser.`)
     return false
   }
   return true
