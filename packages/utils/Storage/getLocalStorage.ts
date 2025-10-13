@@ -10,11 +10,15 @@ import { removeLocalStorage } from './removeLocalStorage'
  */
 export function getLocalStorage(key: string) {
   if (isSupport('localStorage')) {
-    const data = JSON.parse(localStorage.getItem(key) ?? '{}')
-    if (data.expiredTime > new Date().getTime()) {
-      return data.data
+    const item = localStorage.getItem(key)
+    if (!item) return null
+
+    const data = JSON.parse(item)
+    if (data.expired && data.expired < new Date().getTime()) {
+      removeLocalStorage(key)
+      return null
     }
-    removeLocalStorage(key)
-    return null
+    return data.data
   }
+  return null
 }
